@@ -12,5 +12,6 @@
             <li><a href="{{ route('home') }}">Homepage</a></li>
             <li><a href="{{ route('users.index')}}">Users</a></li>
             <li><a href="{{ route('posts.index')}}">Posts</a></li>
+            <li><a href="{{ route('posts.create')}}">Posts</a></li>
         </ul>
     </navbar>
