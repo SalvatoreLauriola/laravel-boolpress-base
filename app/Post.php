@@ -9,7 +9,8 @@ class Post extends Model
     protected $fillable = [
         'user_id',
         'title',
-        'body'
+        'body',
+        'slug'
     ];
 
     /* DB relations */
