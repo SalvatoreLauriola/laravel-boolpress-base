@@ -49,9 +49,9 @@ class PostController extends Controller
         //validate
         $request->validate([
             'title'=>'required|max:255',
-            'post'=>'required',
+            'body'=>'required',
             // crea solo con tag esistente
-            'tags.*' => 'exists:tag,id'
+            'tags.*' => 'exists:tags,id'
         ]);
 
         //salvataggio nel db

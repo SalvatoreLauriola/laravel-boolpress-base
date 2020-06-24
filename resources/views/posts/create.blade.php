@@ -26,7 +26,7 @@
         </div>
         <div class="from-group">
             <label for="post">Post</label>
-            <textarea name="post" id="post" cols="30" rows="10">
+            <textarea name="body" id="post" cols="30" rows="10">
                 {{ old('title') }}</textarea>
         </div>
 
